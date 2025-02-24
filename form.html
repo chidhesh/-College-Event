@@ -1,0 +1,258 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Registration | 2K21</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#cd2929">
+        <meta name="mobile-web-app-capable" content="yes"/>
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <meta name="theme-color" content="#333333">
+        <meta name="mobile-web-app-capable" content="yes">
+        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"/>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+        <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
+
+        <link rel="apple-touch-icon" sizes="180x180" href="favicon_io/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+        <link rel="manifest" href="/site.webmanifest">
+        <link rel="shortcut icon" href="favicon_io/favicon.ico" type="image/x-icon" />
+        <!-- Place favicon.ico in the root directory -->
+
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/styler.css">
+        <style>
+            label {
+                font-weight: 600;
+                color: #555;
+            }
+            body {
+                background: #cd2952;
+            }
+            input::-webkit-outer-spin-button,
+            input::-webkit-inner-spin-button {
+                -webkit-appearance: none;
+                margin: 0;
+            }
+            input[type=number] {
+                -moz-appearance: textfield;
+            }
+            #loader {
+                display: none;
+                position: fixed;
+                top: 0;
+                left: 0;
+                right: 0;
+                bottom: 0;
+                width: 100%;
+                background: rgba(0,0,0,0.75) url(img/loading2.gif) no-repeat center center;
+                z-index: 10000;
+            }
+                    a {
+            color: #e8f0ff;
+            text-decoration: none;
+            -webkit-transition: 0.2s opacity;
+            transition: 0.2s opacity;
+        }
+        a:hover, a:focus {
+            text-decoration: none;
+            outline: none;
+            opacity: 0.8;
+            color: #cd2929;
+        }
+            #footer {
+                position: relative;
+                padding-top: 60px;
+                padding-bottom: 60px;
+                background-color: #cd2929
+            }
+
+            .footer-logo {
+                text-align: center;
+                margin-bottom: 40px;
+            }
+
+            .footer-logo>a>img {
+                max-height: 80px;
+            }
+            .footer-follow {
+                text-align: center;
+                margin-bottom: 20px;
+            }
+            .footer-follow li {
+                display: inline-block;
+                margin-right: 10px;
+                margin-bottom: 13px;
+            }
+
+            .footer-follow li a {
+            display: inline-block;
+            width: 50px;
+            height: 50px;
+            line-height: 50px;
+            text-align: center;
+            border-radius: 3px;
+            background-color: #cd2929;
+            color:#FFF;
+            }
+
+            .footer-copyright p {
+                text-align: center;
+                font-size: 14px;
+                text-transform: uppercase;
+                margin: 0;
+            color:#fff;
+            }
+
+
+
+
+        </style>
+    </head>
+    <body>
+         <!-- Modal registered successfully -->
+        <div id="myModal" class="modal fade" tabindex="-1">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Welcome to Tantrotsav 2025</h5>
+                        <a><button type="button" class="close" data-dismiss="modal">&times;</button></a>
+                    </div>
+                    <div class="modal-body">
+                        <p>Congratulations ! You're successfully registered.</p>
+                    </div>
+                    <div class="modal-footer">
+
+                        <a href="index.html"><button type="button" class="btn btn-primary" data-dismiss="modal">OK</button></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!----QR model--->
+        <!-- <div id="qrmodal" class="modal fade" tabindex="-1">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">You can Pay via Any UPI App. (GPay, PhonePay, Paytm,etc..)</h5>
+                        <a><button type="button" class="close" data-dismiss="modal">&times;</button></a>
+                    </div>
+                    <div class="modal-body">
+                        <img src="img/qrcode.png" alt="qrcode" height="80%" width="80%">
+                    </div>
+                    <div class="modal-footer">
+
+                        <a ><button type="button" class="btn btn-primary" data-dismiss="modal">OK</button></a>
+                    </div>
+                </div>
+            </div>
+        </div> -->
+
+
+        <!--Modal ends here--->
+
+        <div class="reg-title">
+            <a href="index.html"><img src="img/codenestlogo.png" alt="Tantrotsav" height=40%/></a>
+            <br><p style="color: white;">&diams; &diams; &diams;</p>
+        </div>
+        <div class="container">
+           <center> <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSc1OlZyLkfXZdyUuczdHPUOH1DnC_vv93Wpi3RxC8DUrMjWcA/viewform?embedded=true" width="640" height="956" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe></center>
+        </div>
+        <div id="loader"></div>
+        <footer id="footer">
+            <div class="container">
+              <!-- Row -->
+                <div class="row">
+                  <div class="col-md-12">
+                     <!-- footer logo -->
+                    <div class="footer-logo">
+                      <a href="#"><img src="img/codenestlogo.png" alt="scanfcode"></a>
+                    </div>
+                    <!-- /footer logo -->
+                    <!-- footer follow -->
+                    <ul class="footer-follow">
+                      <li><a href="https://www.instagram.com/chiddhu_kulal?igsh=MTZxOTdkd2d0NGc1Zg=="><i class="fa fa-instagram"></i></a></li>
+                      <li><a href="mailto:chidheshkumar8888@gmail.com"><i class="fa fa-envelope"></i></a></li>
+                      <li><a href="tel:+919591671538"><i class="fa fa-phone"></i></a></li>
+                    </ul>
+                    <!-- /footer follow -->
+                    <!-- footer copyright -->
+                    <div class="footer-copyright">
+                      <p>Copyright © 2025. All Rights Reserved. <a href="https://throttlez2k21.github.io" target="_blank">Tantrotsav 2025</a></p>
+                    </div>
+                    <!-- /footer copyright -->
+                  </div>
+                </div>
+                <!-- /Row -->
+              </div>
+              <!-- /Container -->
+            </footer>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"></script>
+        <script>
+
+
+            const scriptURL = 'https://script.google.com/macros/s/AKfycbzQ34mi61Ye5yr8z4qNITyy_3GenRYMoir9vLdEFFBYPlBG8whuRzRxXDW0ZoGKSZxdQA/exec'
+            const form = document.forms['google-sheet']
+
+            form.addEventListener('submit', e => {
+            e.preventDefault()
+            var check_box_values = $('#regForm [type="checkbox"]:checked').map(function () {
+                return this.value;
+                }).get();
+                document.getElementById("event").value = check_box_values;
+                var spinner = $('#loader');
+                $("#loader").show().delay(4000).fadeOut();
+
+
+            fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response =>  $("#myModal").modal('show'))
+            .catch(error => console.log("Error",error))
+            })
+
+        </script>
+
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script>
+
+
+            $(document).ready(function () {
+            $("input[name='techEvent[]']").change(function () {
+
+            var maxAllowed = 2;
+            var cnt = $("input[name='techEvent[]']:checked").length;
+            if (cnt > maxAllowed) {
+                $(this).prop("checked", "");
+            }
+
+            });
+
+            });
+
+            $(document).ready(function () {
+            $("input[name='nontechEvent[]']").change(function () {
+            var maxAllowed = 2;
+            var cnt = $("input[name='nontechEvent[]']:checked").length;
+            if (cnt > maxAllowed) {
+                $(this).prop("checked", "");
+            }
+
+            });
+            });
+
+
+
+
+
+
+
+        </script>
+
+    </body>
+</html>

@@ -1,2 +1,1 @@
-# -College-Event
-Event registration for college level
+# Throttlez 2k21 Website
