@@ -1191,10 +1191,10 @@ footer {
 .add {
     display: grid;
     grid-template-columns: repeat(2, 1fr); /* 2 photos per row for mobile */
-    gap: 10px;
+    gap: 10px; /* Space between images */
 }
 
-/* 4 photos per row on larger screens */
+/* For laptops (4 photos per row) */
 @media screen and (min-width: 768px) {
     .add {
         grid-template-columns: repeat(4, 1fr);
