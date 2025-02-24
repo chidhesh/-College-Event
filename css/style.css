@@ -1188,20 +1188,3 @@ footer {
     scale: 1.5;
 }
 
-.add {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
-.three.columns {
-    width: 48%; /* 2 columns for mobile */
-    margin: 1%; /* Adds spacing */
-}
-
-/* Laptop/Desktop view - 4 images per row */
-@media screen and (min-width: 768px) {
-    .three.columns {
-        width: 23%; /* 4 columns for laptop */
-    }
-}
