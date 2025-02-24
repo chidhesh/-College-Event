@@ -1189,14 +1189,19 @@ footer {
 }
 
 .add {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr); /* 2 photos per row for mobile */
-    gap: 10px; /* Space between images */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
-/* For laptops (4 photos per row) */
+.three.columns {
+    width: 48%; /* 2 columns for mobile */
+    margin: 1%; /* Adds spacing */
+}
+
+/* Laptop/Desktop view - 4 images per row */
 @media screen and (min-width: 768px) {
-    .add {
-        grid-template-columns: repeat(4, 1fr);
+    .three.columns {
+        width: 23%; /* 4 columns for laptop */
     }
 }
