@@ -379,15 +379,15 @@ body {
     font-size: 0.8em;
     color: #a4a4a4;
     text-transform: uppercase;
-    display: block; 
-    margin-top: 20px;
+    /* display: block; 
+    margin-top: 5px; */
 }
 .member-post {
     color: darkgoldenrod;
     /* text-transform: uppercase; */
     font-size: 0.8em;
-    display: block;
-    margin-top: 5px;
+    /* display: block; */
+    /* margin-top: 0px; */
 }
 .container {
     text-align: center;
